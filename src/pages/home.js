@@ -1,5 +1,4 @@
 import Button from "../components/button";
-import MyUseState from "../components/myUseState";
 
 const Home = () => {
     return (
@@ -13,7 +12,6 @@ const Home = () => {
                     <Button text = "Click me" className = "btn btn-success" myOnClick = {(event) =>  {alert("Hello World");}} />
                 </div>
             </div>
-            <MyUseState />
         </div>
     );
 };
