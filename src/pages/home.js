@@ -1,6 +1,6 @@
 import Button from "../components/button";
 import MyUseState from "../components/myUseState";
-
+import Barplot from "../components/barplot";
 const Home = () => {
     return (
         <div>
@@ -14,6 +14,7 @@ const Home = () => {
                 </div>
             </div>
             <MyUseState />
+            <Barplot name='Toan' />
         </div>
     );
 };
